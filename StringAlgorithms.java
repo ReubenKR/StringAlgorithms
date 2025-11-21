@@ -88,16 +88,16 @@ public class StringAlgorithms {
         System.out.println("Testing printCharacters:");
         // Example:
         // System.out.println(printCharacters("hello"));
-        System.out.println(printCharacters("goodbye"));
+        System.out.println(printCharacters("hello"));
          System.out.println("\nTesting reverseWord:");
         // Example:
         // System.out.println(reverseWord("hello"));
-         System.out.println(reverseWord("goodbye"));
+         System.out.println(reverseWord("hello"));
 
         System.out.println("\nTesting capitalizeString:");
         // Example:
         // System.out.println(capitalizeString("the quick brown fox"));
-         System.out.println(capitalizeString("the drowning fish"));
+         System.out.println(capitalizeString("the quick brown fox"));
         System.out.println("\nTesting detectPalindrome:");
         // Example:
         // System.out.println(detectPalindrome("racecar"));
