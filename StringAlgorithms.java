@@ -7,15 +7,13 @@ public class StringAlgorithms {
      */
     public static String printCharacters(String word) {
         // TODO: Implement this method
-        String one = word.substring(0, 1);
-        for (int i = 0; i < word.length(); i++) {
-            
-         one += "\n" + word.substring(i, (i + 1));
-        
-        }  
-        return one;
+        String characters = "";
+        for (int i = 0; i <= word.length() - 1; i++) {
+          // System.out.println(word.substring(i, i + 1));
+            characters += word.substring(i, i + 1) + "\n";
+        }
+        return characters;
     }
-
 
     /**
      * Challenge 2:
